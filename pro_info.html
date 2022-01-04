@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Quicksand&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="./CSS/Style.css" />
+      <link rel="stylesheet" href="./CSS/responsive.css" />
+      <link rel="stylesheet" href="./Font/fontawesome-free-5.12.1-web/css/all.css"/>
+      <title>NAK Shop</title>
+      <script src="./CodeJS/validator.js"></script>
+      <link rel="stylesheet" href="./CSS/pro_inf.css" />
+   </head>
+
+   <body>
+      <header>
+         <div class="nav">
+            <ul class="nav-list">
+               <li><a href="./index.html">GeFoSTORE</a></li>
+               <i class="fas fa-chevron-down"></i>
+               <li><a href="#">Sản Phẩm</a></li>
+               <li><a href="#footer">Liên Hệ</a></li>
+            </ul>
+            <div class="login-register">
+               <a href="#" class="js-login">Đăng Nhập</a>|
+               <a href="#" class="js-register">Đăng Ký</a>
+            </div>
+         </div>
+                
+      </header>
+      <div class="content">
+         <div class="content-container"></div>
+      </div>
+      <footer id="footer">
+         <div class="customer-support">
+            <h3>Hỗ trợ khách hàng</h3>
+            <p>Hotline: 19009191</p>
+            <p>(Tổng đài hỗ trợ 24/7)</p>
+         </div>
+         <div class="support">
+            <h3>Hợp tác</h3>
+            <p><a href="https://www.google.com">Ban kế hoạch GeFoSTORE</a></p>
+         </div>
+         <div class="connect">
+            <h3>Kết nối với chúng tôi</h3>
+            <a href=""><i class="fab fa-facebook"></i>Cộng đồng GeFoSTORE</a>
+            <a href=""><i class="far fa-envelope"></i>Hộp thư Mail</a>
+            <a href=""><i class="fab fa-youtube-square"></i>Kênh Youtube</a>
+         </div>
+      </footer>
+
+      <div class="modal">
+         <div class="modal-form"></div>
+      </div>
+
+      <div class="cart">
+         <div class="modal-cart">
+            <div class="cart-head">
+               <h3>Giỏ hàng</h3><i class="fas fa-times" onclick="closeModal($('.cart'))"></i>
+            </div>
+            <div class="cart-body">
+               <div class="sub-cart">
+                  <p>Thông tin Sản phẩm</p>
+                  <p>Giá tiền</p>
+                  <p>Số lượng</p>
+                  <p>Tổng </p>
+               </div>
+               <ul class="cart-list">
+   
+               </ul>
+            </div>
+            <div class="cart-footer">
+               <div class="total-price-cart">
+                  <span>Tổng :</span> <span class="total-price">0 đ</span>
+               </div>
+               <button class="continue" onclick="closeModal($('.cart'))"> Tiếp tục mua hàng</button>
+               <button class="clean-cart"><i class="fas fa-dumpster"></i> Xóa hết</button>
+               <button class="pay-cart"><a href="./order.html">Đặt hàng >></a></button>
+            </div>
+         </div>
+      </div>
+      <script src="./CodeJS/info.js"></script>
+   </body>
+</html>
