@@ -1,27 +1,3 @@
-// Form HTML for validator
-/* <div class="form-group">
-      <label class="form-label">Email *</label>
-      <input
-         class="form-input"
-         type="email"
-         name="email"
-         placeholder="Example@email.com"
-         value=""                
-      />
-      <span class="message-error"></span>
-   </div> */
-// Form validator js
-/*
-   Validator({
-      form: ,
-      formGroupSelector: ,
-      errorSelector ,
-      rules: [],
-      onSubmit: function (data) {},
-   });
-*/
-
-
 function Validator(options) {
    //if input isn't same level tag
    function getParent(element, selector) {
